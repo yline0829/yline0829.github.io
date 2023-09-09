@@ -6,7 +6,7 @@ permalink: /
 
 Make Jelly site have a GitBook look!
 
-## Demo
+## [My personal website](https://www.alces-lab.github.io)
 
 Live demo on Github Pages: [https://sighingnow.github.io/jekyll-gitbook](https://sighingnow.github.io/jekyll-gitbook)
 
