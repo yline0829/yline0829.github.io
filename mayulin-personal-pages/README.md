@@ -1,6 +1,6 @@
-# Researcher
+# Alces-lab 马玉林的个人主页
 
-### [Demo Website](http://ankitsultana.com/researcher)
+### [My personal Website](http://alces-lab.github.io)
 
 A clean, single column, monospace resume template built for jekyll
 
