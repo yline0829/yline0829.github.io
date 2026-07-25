@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta charset="utf-8">
+<meta name="ProgId" content="Word.Document">
+<meta name="Generator" content="Microsoft Word compatible HTML">
+<title>钛及钛合金多尺度界面结构演化与强韧耐磨机制研究——第1章绪论</title>
+<style>
+@page Section1 { size: 21cm 29.7cm; margin: 2.54cm 2.54cm 2.54cm 3.0cm; }
+div.Section1 { page: Section1; }
+body { font-family: SimSun, 宋体, serif; font-size: 12pt; color:#000; }
+p { margin: 0 0 0.45em 0; line-height: 1.85; text-align: justify; text-justify: inter-ideograph; text-indent: 2em; }
+h1 { font-family: SimHei, 黑体, sans-serif; font-size: 18pt; font-weight: bold; text-align:center; margin: 0 0 1.2em 0; }
+h2 { font-family: SimHei, 黑体, sans-serif; font-size: 15pt; font-weight: bold; margin: 1.1em 0 0.65em 0; }
+.ref { font-family: 'Times New Roman', SimSun, serif; font-size: 10.5pt; line-height: 1.45; text-indent: -2.6em; margin-left: 2.6em; text-align:left; }
+.figure { margin: 1em auto 1.1em auto; text-align:center; page-break-inside:avoid; }
+.caption { text-align:center; text-indent:0; font-family: SimSun, 宋体, serif; font-size:10.5pt; line-height:1.45; margin-top:0.45em; }
+.note { text-align:center; text-indent:0; font-family: SimSun, 宋体, serif; font-size:9pt; line-height:1.35; color:#333; }
+.box { display:inline-block; vertical-align:top; width:21%; min-height:92px; margin:4px; padding:8px; border:1px solid #666; background:#f7f7f7; text-align:center; font-size:10.5pt; line-height:1.45; }
+.layer { width:78%; margin:0 auto; border-left:1px solid #666; border-right:1px solid #666; padding:6px 8px; text-align:center; font-size:10.5pt; }
+.small { font-size:10.5pt; }
+.noindent { text-indent:0; }
+.question { text-indent:0; margin-left:2em; }
+.pagebreak { page-break-before:always; }
+</style>
+</head>
+<body>
+<div class="Section1">
+<h1>第1章 绪论</h1>
+
+<h2>1.1 研究背景与意义</h2>
+<p>钛及钛合金兼具低密度、高比强度、优良耐腐蚀性、良好生物相容性及较宽的服役温度范围，在航空航天、海洋工程、能源装备、石油化工和生物医疗等领域具有重要应用价值[1-6]。随着钛合金构件向高承载、长寿命和复杂环境服役方向发展，材料的评价重点已由静态强度逐步拓展至表面完整性与服役可靠性。航空发动机压气机部件、紧固与连接结构、海洋运动副以及植入器械等构件在实际服役中往往承受滑动、微动、循环接触或局部冲击，损伤首先集中于有限厚度的表面和亚表面区域。因此，表层组织在复杂接触载荷下的稳定性，已成为制约钛合金构件寿命与可靠性的关键因素。</p>
+<p>与优异的体积性能相比，钛合金的耐磨性相对不足。钛对铁、镍和钴等常用对偶材料具有较强的化学亲和力，真实接触点在高局部压力和摩擦热作用下容易形成黏着结点；较低的弹性模量会增大接触区的弹塑性变形和真实接触面积；相对较低的热导率又使摩擦热集中于近表层，促进氧化膜反复破裂、再生及磨屑压实[7-9]。钛表面天然氧化膜虽可在初始阶段隔离金属直接接触，但其厚度和承载能力有限，在循环剪切作用下易发生破裂和剥落。因而，钛合金的材料去除通常不是单一磨粒切削的结果，而是黏着、犁削、氧化、第三体转移、塑性流动及亚表面疲劳剥层等过程相互竞争和转化的综合结果。</p>
+<p>不同相组成钛合金在同一接触条件下表现出的差异进一步说明，初始硬度或单一摩擦系数不足以完整表征耐磨能力。α、α+β和β钛材料的对比研究表明，晶体结构和第二相状态能够改变摩擦氧化物与第三体层的形成和稳定性；在商业纯α-Ti中，跑合后的表面反应层可经历锐钛矿型TiO<sub>2</sub>形成、向金红石型TiO<sub>2</sub>转变以及富Fe氧化物覆盖等阶段，而β相的存在可能使第三体层发生周期性失稳，导致摩擦响应持续波动[9]。此外，纯钛经强塑性变形细化晶粒后，其微观耐磨响应虽可改善，但当表层韧性和变形协调能力下降时，磨损率并不必然随硬度增加而持续降低[10-11]。这些现象表明，耐磨性能由表面反应、近表层塑性变形、加工硬化和损伤稳定性共同决定。</p>
+<p>摩擦载荷具有显著的复合性和梯度性。法向载荷在接触区产生高压应力和静水压力，切向摩擦力引起强剪切，应力主轴还会随对偶体运动、接触状态和表面形貌变化而转动。靠近表面的晶粒首先经历凸起压平、滑移带形成及强烈塑性流动，随后位错增殖、晶格转动和残余应力向更深区域扩展，形成由强变形层向未变形基体连续过渡的梯度组织[12]。当塑性应变能够通过多滑移、孪生、晶粒转动和界面运动得到分散，表层可形成相对稳定的加工硬化层；当局部变形高度集中或界面附近持续积累高应力时，则容易形成剪切带、亚表面裂纹和分层剥落。因此，磨痕表面观察到的犁沟、黏着和剥落只是表层变形层演化后的最终形貌，耐磨机制的本质在于表层组织如何承载、传递并协调摩擦载荷。</p>
+<p>由于磨损损伤主要集中于材料表面及有限深度的亚表面区域，表面强化能够在较少改变基体整体性能的前提下，有针对性地提高接触承载能力和抗损伤能力。表面机械强化、热化学处理、涂层沉积、激光合金化和激光表面热处理等方法，可分别通过位错增殖、晶粒细化、残余压应力、硬质反应相或相变组织提高表层强度[13-15]。其中，激光处理具有能量输入集中、加热区域可控、处理时间短和易于形成冶金连续过渡等特点。快速加热和冷却还可诱发α↔β相变、变体选择、晶粒细化和孪晶相关界面形成，为构筑沿深度连续变化的多尺度组织提供条件。</p>
+<p>然而，表面强化的有效性不能仅以硬度增幅和最终磨损率评价。较高的初始强度能够减小接触压入和连续犁削，但若强化层与基体之间的强度梯度过大，或强化组织缺少必要的塑性协调能力，循环摩擦仍可能在界面或局部软区诱发应力集中和早期开裂。相反，具有合理强度梯度、持续加工硬化能力和稳定界面结构的表层，能够通过应力—应变再分配延缓局部失稳。因此，α型钛合金表面强化研究需要由传统的“工艺参数—初始硬度—磨损率”相关性分析，进一步转向摩擦载荷下表层塑性变形、加工硬化和损伤演化的机制研究。明确强化前后不同组织区域如何承担应力和应变、滑移与孪生如何参与变形以及界面如何在强化、协调和损伤之间发挥作用，对于揭示α型钛合金耐磨性能改善的物理基础和指导表层组织设计具有重要意义。</p>
+
+<h2>1.2 α型钛合金表面强化研究进展</h2>
+<p>α型及近α型钛合金以密排六方α相为主要承载组织，典型组织由等轴α晶粒、片层α及少量残余或转变β区域构成。α晶粒尺寸、晶体取向、片层尺度和界面类型共同决定表层的屈服、滑移传递与局部损伤行为。针对其表面抗塑性压入能力有限和接触损伤敏感的问题，已发展出表面机械强化、热化学处理、薄膜与涂层、激光合金化以及激光表面热处理等多种技术路线。不同方法的共同目标是提高表层承载能力，但其组织调控方式及潜在失效模式存在明显差异。</p>
+<p>喷丸、滚压、超声冲击和表面机械研磨等机械强化方法依靠近表层强塑性变形引入高密度位错、亚晶和残余压应力。商业纯α-Ti经高压扭转或表面机械研磨后，晶粒细化和加工硬化可提高微观抗犁削能力[10-11]。但机械强化同时会改变表面粗糙度和近表层塑性储备：适度变形有利于提高接触流动应力并延缓裂纹萌生，过度变形则可能使表层韧性下降，并在后续摩擦中产生脆性剥落。因此，表面机械强化的效果取决于强化层深度、残余应力稳定性、表面形貌及塑性协调能力的综合匹配，而非单纯追求更小晶粒或更高硬度。</p>
+<p>热氧化、渗氮和间隙元素扩散强化能够形成氧富集层、氮化物层或氮扩散区，显著提高钛表面的硬度和化学稳定性[19-21]。硬质涂层与激光熔覆则通过TiN、TiC、TiB及其他陶瓷相提高抗压入和抗切削能力[13-15]。这类方法在降低黏着和磨粒磨损方面具有明显优势，但硬化层或涂层与基体之间常存在较大的成分和性能梯度。当界面结合不足、反应相连续性过高或涂层缺陷较多时，裂纹可能在硬化层内部或过渡区萌生并扩展。因此，表面强化组织不仅需要具备足够高的硬度，还应保持冶金连续性和适当的变形协调能力。</p>
+<p>激光表面处理通过局部快速热循环重构基体自身组织，兼具高能量密度、作用区域可控和基体热影响有限等特点[13-15]。对于α型钛合金，激光功率、扫描速度、光斑尺寸和离焦量共同决定单位长度热输入、峰值温度、硬化区宽度与深度。商业纯钛激光相变硬化的响应面研究显示，硬化区几何尺寸与工艺参数之间存在显著的非线性和交互作用[17-18]。过低热输入难以形成连续的相变层，过高热输入则可能延长高温停留时间，增加表面氧化、粗化和热应力；适当的峰值温度与冷却速率组合是形成连续梯度层的前提。</p>
+<p>激光重熔与反应性激光处理虽均能提高表面硬度，但其强化来源并不相同。Grade 2纯钛经高功率二极管激光重熔后，可形成与基体连续过渡的快速凝固区，并伴随显微硬度、残余应力和腐蚀响应变化[16,22]；在氮气中进行脉冲激光或激光维持等离子体处理时，硬化主要来源于TiN/Ti<sub>2</sub>N反应层及氮扩散区[19-21]。前者强调晶粒、相变和缺陷结构重构，后者主要依赖反应相与间隙固溶。若研究目标是识别晶粒和孪晶相关界面对后续变形的贡献，则需要优先采用成分变化较小的重熔或快速相变处理，并排除氧、氮富集对硬化的主导作用。</p>
+<p>近α钛合金的激光处理结果进一步表明，α相表层的组织演化由峰值温度、原β晶粒形成和冷却转变路径共同控制。Ti-5Al-2.5Sn经脉冲Nd:YAG激光处理后，高冷却速率区域形成以α′马氏体和细化原β晶粒为特征的硬化区，冷却较慢区域则出现等轴α与针状α混合组织；优化工艺下表层显微硬度较基体提高约36%[23]。BT20近α钛合金经激光表面熔化后，重熔区形成宽度约50～250 μm的柱状晶，晶内分布约200～500 nm的细小α′和α″相，后续热处理可促使亚稳相分解为细小α+β组织[24]。这些结果说明，激光强化不是简单的“熔化—细化”过程，而是原始α溶解、高温β形成、原β晶粒生长以及多个α/α′变体竞争形成的连续过程。</p>
+<p>α↔β转变的晶体学关系是理解激光诱导界面结构的基础。原位SEM-EBSD研究表明，商业纯钛在α→β转变过程中，β相可在α晶粒内部以板条形式形核，也可沿α/α晶界形成，且伴随明显的形核选择和界面迁移[28]。冷却时β相通常遵循Burgers取向关系转变为α相，即{0001}<sub>α</sub>∥{110}<sub>β</sub>、〈11-20〉<sub>α</sub>∥〈111〉<sub>β</sub>，同一β取向理论上可产生12种α变体[27-29]。不同变体配对可形成特定大角度界面、低能界面或孪晶关系。因此，激光处理后观察到的孪晶状界面不能仅根据形貌认定为外载荷诱发的形变孪晶，而应结合母相重构、取向差轴角及界面晶面进行识别。</p>
+
+<div class="figure">
+<div style="width:82%; margin:0 auto; border:1px solid #555; padding:12px; background:#fafafa;">
+<div style="font-weight:bold; margin-bottom:8px;">激光快速热循环</div>
+<div style="font-size:18pt;">↓</div>
+<div class="box"><b>表层高温区</b><br>α相溶解<br>高温β形成<br>快速冷却变体重构</div>
+<div class="box"><b>相变过渡区</b><br>局部α↔β转变<br>细晶与相对粗晶共存<br>界面密度增加</div>
+<div class="box"><b>热影响区</b><br>回复与再结晶<br>缺陷结构调整<br>残余应力演化</div>
+<div class="box"><b>基体区</b><br>原始等轴α组织<br>保持整体强韧性<br>承担深部载荷</div>
+<div style="margin-top:8px; font-weight:bold;">形成沿深度连续变化的晶粒—变体—界面梯度组织</div>
+</div>
+<p class="caption">图1-1 激光快速热循环调控α型钛合金表层组织的基本过程</p>
+<p class="note">根据文献[13-29]所报道的热循环、α↔β转变和梯度组织特征整理绘制。</p>
+</div>
+
+<p>现有Ti-6Al-4V研究对高速热循环下α′形成、板条细化和相变孪晶提供了较丰富的动力学证据[25-26]，但其α+β双相组织、V元素分配和α/β界面会显著改变滑移传递与表面反应，因而不能直接替代α型和近α型体系。对于以等轴α为主要承载单元的材料，激光处理后形成的细晶、相变变体、孪晶相关界面和相对粗大α区域构成力学性质不均一的表层。高密度界面可阻碍位错并提高强度，相对粗晶区域则具有较大的位错存储空间和塑性协调能力；二者的协同可能形成异质变形诱导硬化，但过大的组织梯度也可能在局部过渡区造成应力集中。</p>
+<p>从宏观性能看，激光处理通常能够提高钛合金表面硬度，减小磨痕宽度和深度，并降低材料损失[13-25]。但硬度提高与耐磨改善并不总是同步，摩擦系数也可能因表面粗糙度、氧化膜、真实接触面积和磨屑状态不同而表现出相反变化。纯钛强塑性变形研究及不同相型钛材料的对比结果均表明，表层初始硬度只能反映抵抗压入的能力，不能替代表层在摩擦过程中的加工硬化、反应层稳定性和亚表面损伤行为[9-11]。因此，表面强化组织的评价需要从“是否更硬”进一步转向“能否在循环复合载荷下保持稳定”。</p>
+<p>总体而言，α型钛合金表面强化研究已经建立了工艺参数、初始组织和宏观磨损响应之间的基本联系，但仍存在明显的机制缺口。现有研究多依据处理前的晶粒尺寸、相组成和平均硬度解释最终磨损率，对相变变体和孪晶相关界面在摩擦后的稳定性、不同深度晶粒的取向演化以及高应变区的起源缺少直接证据。特别是在细晶、孪晶和相对粗晶共存时，耐磨改善究竟源于塑性变形被简单抑制，还是源于塑性应变在多尺度组织之间得到更合理的分配，仍需结合磨损后表面—亚表面组织演化加以阐明。</p>
+
+<h2>1.3 摩擦载荷下α型钛合金的变形行为与耐磨机制研究进展</h2>
+<p>摩擦磨损是接触载荷驱动下表层组织持续演化并最终失稳的过程。法向压力在接触区产生压应力和静水压力，切向力引起强剪切，应力主轴随对偶体运动和局部接触状态不断变化；接触前缘和后缘还可能出现拉压交替。材料通常先经历表面凸起压平和滑移带形成，随后在近表层累积位错、晶格转动和残余应力，最终通过磨屑形成、裂纹扩展或分层剥落实现材料去除[12,30-38]。因此，表面犁沟、黏着层和剥落坑属于变形层演化后的外部表征，不能单独代表其内部变形机制。</p>
+<p>第三体理论和摩擦转变结构研究揭示了表面—亚表面分层的普遍性。磨屑在接触区反复破碎、氧化和压实后，可形成承担部分载荷的机械混合层或第三体层；其下方依次出现高度细化的摩擦转变区域、一般塑性变形层和未受影响基体[30-36]。Ti-6Al-4V微动研究虽提供了较为清晰的摩擦转变结构证据，但其所反映的“表面化学—机械混合、近表层强剪切细化、深部取向梯度”分层规律同样有助于理解α型材料。不同层级受氧化反应、塑性变形和晶粒约束的主导程度不同，无法由平均硬度或单一磨痕深度统一描述。</p>
+<p>α-Ti的直接研究进一步证明，表层变形状态与耐磨响应密切相关。TA2纯钛在室温干滑动下可形成深度达到约50 μm的严重塑性变形层；低温滑动时则形成约10 μm的加工硬化层和连续梯度组织，位错墙与α亚晶阻碍后续位错运动，使磨损率最高降低约66%[71]。这一结果说明，耐磨性提高并不意味着表层完全不发生塑性变形，而可能来源于变形方式由大范围塑性流动转变为受控的位错存储、亚晶形成和稳定加工硬化。商业纯钛氧化膜滑动的原位观察与截面EBSD还表明，在较小接触区内，摩擦响应与接触下方单个α晶粒的取向和Taylor因子存在相关性；当载荷增大、接触跨越多个晶粒后，晶粒取向效应因多晶约束而被平均化[72]。该结果直接揭示了晶体取向、接触尺度和摩擦响应之间的联系。</p>
+<p>近α Ti-834加工表层的截面EBSD研究为等轴α主导材料的亚表面变形提供了进一步证据。随着表面速度提高，表面约5 μm范围内持续存在严重塑性变形层，而滑移和孪生可延伸至显微形貌尚未明显畸变的更深区域；EBSD识别的最大损伤深度可超过40 μm，并明显高于常规背散射形貌所得结果[37]。这表明，晶粒外形变化只能识别最强烈的表面塑流，而晶格转动、滑移带和孪生能够在更深范围内记录载荷传递。若仅依据表面轮廓或截面形貌判断变形层厚度，可能显著低估真实受影响区域。</p>
+<p>HCP α相的塑性各向异性是表层非均匀变形的晶体学基础。室温下柱面〈a〉滑移通常具有较低的临界分切应力，基面〈a〉和一阶锥面〈a〉滑移的活动受氧含量、织构、温度和应变率影响；当沿c轴方向的应变无法由〈a〉位错协调时，一阶或二阶锥面〈c+a〉滑移以及形变孪生需要提供附加自由度[39-44]。不同滑移系之间较大的启动阻力差异，使相同宏观接触载荷在不同晶粒中产生显著不同的应力和塑性响应。有利取向晶粒优先进入塑性并逐渐硬化，不利取向晶粒在早期承担较高弹性应力，随后载荷通过晶界向邻晶和更深区域重新分配。</p>
+
+<div class="figure">
+<div style="width:88%; margin:0 auto;">
+<div class="box"><b>柱面〈a〉滑移</b><br>室温下通常优先启动<br>承担主要面内塑性变形<br>易形成明显滑移带</div>
+<div class="box"><b>基面〈a〉滑移</b><br>受取向与成分影响显著<br>参与应变协调<br>可改变局部硬化路径</div>
+<div class="box"><b>锥面〈c+a〉滑移</b><br>协调c轴方向应变<br>启动应力相对较高<br>复杂应力下作用增强</div>
+<div class="box"><b>形变孪生</b><br>提供剪切与晶格重取向<br>改变后续滑移条件<br>形成新的界面障碍</div>
+</div>
+<p class="caption">图1-2 α-Ti主要塑性变形机制及其晶体学功能</p>
+<p class="note">根据文献[39-47]对α-Ti滑移、孪生及加工硬化行为的研究结果整理绘制。</p>
+</div>
+
+<p>孪生在α-Ti中同时承担应变协调和晶格重取向作用。拉伸孪生或压缩孪生形成后，孪晶区域发生大角度晶格旋转，其内部原先不利的滑移系可能转为有利；与此同时，孪晶界会阻挡位错并缩短位错平均自由程。高纯α-Ti的大变形研究表明，加工硬化可经历位错滑移主导、孪晶快速增殖以及孪晶内部再滑移等阶段[45-47]，说明孪生并非固定不变的强化界面，而是随应变演化持续改变局部滑移条件。在摩擦载荷下，应力方向和幅值的反复变化还可能促使不同孪生变体或滑移系接续参与，使磨后截面中的孪晶界、低角度晶界和取向梯度成为判断变形路径的重要依据。</p>
+<p>等轴α晶粒在近α钛合金中仍遵循上述基本变形规律，但固溶元素、片层区和α/β界面会改变局部滑移阻力及载荷传递。Ti-6242中原位变形研究显示，初生α内基面、柱面和锥面滑移具有不同的启动顺序及局域化程度，〈c+a〉滑移主要在接近或超过宏观屈服应力时参与，孪生也可在较低塑性应变下由邻晶滑移触发[62]。Ti-6242Si低周疲劳研究发现，强烈平面滑移首先集中于初生α，滑移能否跨越晶界取决于两侧滑移系的几何匹配、局部边界结构及邻近两相区域的约束[63]。这些结果说明，等轴α晶粒既是塑性变形的主要承担单元，也是局部应变集中和裂纹萌生的重要位置。</p>
+<p>磨损后截面EBSD能够在较大区域内表征上述变形的空间分布。IPF图可识别晶粒弯曲、晶格旋转和孪晶；局部取向差对相邻测点之间的晶格梯度较敏感，可反映高几何必要位错和强非均匀变形区域；晶粒参考取向偏差及晶粒取向差可描述晶粒内部相对于参考取向的累计转动；低角度晶界增加通常与位错重排、亚晶和位错墙形成有关。需要注意的是，KAM等参数不能直接等同于绝对塑性应变或总位错密度，但在采集步长、去噪和邻域条件保持一致时，可用于比较不同处理状态和不同深度区域的相对变形程度。</p>
+<p>晶界和孪晶界在摩擦载荷下具有强化、协调与损伤三重作用。界面阻碍位错运动时，位错塞积和几何必要位错增加局部流动应力，促进晶界强化和加工硬化；界面能够迁移、吸收或发射位错时，可通过结构调整传递塑性应变并缓解局部不相容；当位错难以穿越界面或反应后形成不可动缺陷时，残余应力会持续积累，使界面转化为裂纹萌生位置[61,65-70]。因此，界面密度并不是决定强化效果的唯一因素，界面的可动性、缺陷反应路径和应力释放能力同样控制其在服役过程中的稳定性。</p>
+<p>近年的亚表面研究已开始强调强度与塑性协调对耐磨性的共同作用。高强钛合金微动研究表明，当法向接触应力接近或超过材料强度时，提高表层强度对抑制晶粒破碎和裂纹具有主导作用；当接触应力明显低于材料强度时，局部协调变形能力对减轻损伤更为重要，纳米晶表层与可变形过渡层的复合结构可显著降低微动损伤[73]。该认识与α-Ti低温滑动形成稳定加工硬化层的结果相互印证：耐磨组织的关键不在于将表面塑性完全消除，而在于通过强度梯度和界面机制控制塑性发生的位置、程度和演化方式。</p>
+
+<div class="figure">
+<div style="width:82%; margin:0 auto; border:1px solid #555; padding:10px; background:#fff;">
+<div style="font-weight:bold; margin-bottom:6px;">对偶体接触：法向压力 N ＋ 切向摩擦力 T</div>
+<div style="font-size:18pt;">↓</div>
+<div class="layer" style="background:#d9d9d9; border-top:1px solid #666;"><b>第三体/反应层</b>：氧化物、磨屑压实、材料转移与周期性破裂</div>
+<div class="layer" style="background:#f4cccc;"><b>强变形层</b>：剧烈剪切、晶粒拉长/细化、位错高密度与局部裂纹</div>
+<div class="layer" style="background:#fce5cd;"><b>梯度塑性与加工硬化层</b>：多滑移、孪生、晶格转动、亚晶与载荷再分配</div>
+<div class="layer" style="background:#fff2cc;"><b>过渡区</b>：晶界约束、较弱取向梯度和深部应力传递</div>
+<div class="layer" style="background:#d9ead3; border-bottom:1px solid #666;"><b>未受影响基体</b>：保持原始组织并承担整体支撑</div>
+<div style="margin-top:8px;">稳定加工硬化与连续过渡 → 延缓局部剪切、裂纹扩展和分层剥落</div>
+</div>
+<p class="caption">图1-3 摩擦复合载荷下α型钛合金表面—亚表面的梯度变形与损伤演化</p>
+<p class="note">根据文献[30-38,71-73]关于第三体层、强变形层、加工硬化层及亚表面损伤的研究结果整理绘制。</p>
+</div>
+
+<p>由此可见，α型钛合金的耐磨机制是表面承载、塑性协调、加工硬化和损伤累积共同竞争的结果。强化表层首先通过较高流动应力减小初始塑性压入和连续犁削；随后，晶粒间载荷传递、位错增殖、多滑移与孪生促进加工硬化，并使塑性应变沿不同组织区域和深度重新分配；晶界和孪晶界的阻碍作用进一步提高强度，而界面迁移和缺陷转化则决定局部应力能否释放。当高强表层、可变形过渡区和基体支撑形成连续协同时，严重剪切局域化、亚表面裂纹和材料剥落能够被有效延缓。</p>
+<p>现有研究虽已分别揭示摩擦反应层、亚表面梯度变形、HCP滑移—孪生和界面作用等环节，但这些认识尚未在同一强化体系中形成完整关联。针对α型钛合金的研究仍多集中于磨痕表面、平均磨损率或局部TEM观察，对处理前后大范围晶粒取向演化和变形层深度缺少系统比较；初始细晶、孪晶和粗晶组织与磨后取向梯度之间的对应关系尚未明确；实验观察到的空间非均匀变形也难以直接揭示加载过程中的晶粒尺度应力、应变和滑移活动。进一步将初始组织、磨后截面证据、介观应力—应变演化和界面缺陷过程相互衔接，是阐明耐磨机制的必要条件。</p>
+
+<h2>1.4 现有研究不足与拟解决的科学问题</h2>
+<p>综上，α型钛合金表面强化和摩擦变形研究已取得较为系统的进展，但现有工作仍主要建立工艺参数、初始组织、显微硬度和最终磨损响应之间的相关关系，对强化表层在摩擦载荷下的组织演化及多尺度界面作用缺少贯通认识。</p>
+<p>首先，激光快速热循环引起的α溶解、高温β形成、冷却变体重构和孪晶相关界面形成具有明显的空间梯度。已有研究较多关注硬化区尺寸、亚稳相类型和平均硬度，对不同α变体之间的晶体学关系、孪晶型界面及其沿深度的连续演变缺少系统识别。若不能区分相变孪晶、形变孪晶和一般高角度晶界，便难以准确评价激光表层的界面强化来源及其后续稳定性。</p>
+<p>其次，初始强化组织与摩擦过程中的真实变形之间仍存在机制断层。多数研究依据晶粒细化和硬度提高推断耐磨性改善，但最终磨痕形貌无法判断塑性变形究竟被抑制，还是由表面高度局域化转变为更分散的表面—亚表面协调变形。细晶、孪晶和相对粗晶区域具有不同的滑移阻力、位错存储能力和晶界约束，其在摩擦载荷下的应力、应变和加工硬化演化尚不清楚。</p>
+<p>再次，孪晶相关界面在强化、协调和损伤之间的作用转变缺少统一解释。高密度界面可以阻碍位错并提高流动应力，但界面能否迁移、能否发射或传递位错以及反应后是否保留不可动缺陷，将决定其最终表现为稳定强化单元、塑性协调通道或亚表面损伤源。宏观磨损试验和常规组织表征难以直接识别这一作用转变，需要从介观应力—应变演化和更小尺度缺陷反应两个层面加以分析。</p>
+<p class="noindent">基于上述研究不足，拟重点解决以下科学问题：</p>
+<p class="question">（1）激光快速热循环如何调控等轴α-Ti表层的晶粒尺度、相变变体和孪晶相关界面，并形成具有不同承载与变形能力的多尺度梯度组织？</p>
+<p class="question">（2）强化表层在摩擦复合载荷下如何发生滑移、孪生、晶格转动、晶粒间载荷传递和加工硬化，其应力—应变演化如何影响变形局域化与亚表面损伤？</p>
+<p class="question">（3）孪晶相关界面的迁移和位错反应如何调节局部应力与塑性应变，其在何种条件下促进变形协调，又在何种条件下形成残余缺陷并诱发损伤？</p>
+
+<h2>1.5 研究内容</h2>
+<p>α型及近α型钛合金均以HCP α相为主要承载组织，等轴初生α在室温变形和局部载荷传递中发挥重要作用。为减少β相、析出相及多种合金元素对局部变形过程的耦合影响，选取具有单相等轴α组织的工业纯钛作为模型材料，用以识别HCP晶粒取向、滑移—孪生竞争、晶粒间载荷传递和界面作用的基础规律。由模型材料获得的机制认识，可为进一步分析α型及近α型钛合金中初生α区域的表面强化与摩擦变形提供基础。</p>
+<p>围绕上述科学问题，研究内容包括以下四个方面。</p>
+<p class="question">（1）研究激光表面处理对α-Ti表层晶粒、相变变体和孪晶相关界面的影响，分析不同处理状态下的组织梯度、显微硬度及摩擦载荷响应，建立激光热循环、初始组织与耐磨性能之间的联系。</p>
+<p class="question">（2）利用磨损后截面EBSD表征表面及亚表面的晶粒形貌、晶格转动、局部取向差、低角度晶界、孪晶界和变形层分布，比较未处理与强化表层在不同载荷下的塑性变形和损伤特征；结合与实际组织相对应的晶体塑性分析，从介观尺度以及应力、应变演化的角度，解析不同取向晶粒和不同组织区域之间的载荷传递、滑移活动、变形协调与加工硬化机制。晶体塑性分析用于揭示实验难以直接获得的晶粒尺度应力、应变和变形机制演化，而非将模拟本身作为独立研究目标。</p>
+<p class="question">（3）研究不同加载方式和成分条件下非共格基面—柱面界面的迁移与结构演化，以及〈c+a〉位错与不同孪晶界之间的反应行为，揭示界面迁移、位错分解、缺陷转化和局部应力演化对塑性协调与损伤萌生的影响。原子尺度分析用于补充实验和介观分析难以直接分辨的界面缺陷过程，并提炼界面阻碍、迁移及残余缺陷形成的共性机制。</p>
+<p class="question">（4）综合激光处理后的初始组织、磨损后截面变形、介观尺度应力—应变演化及界面缺陷反应，阐明多尺度界面结构对表层承载、塑性协调、加工硬化和损伤演化的协同调控机制，并据此揭示α型钛合金耐磨性能改善的物理基础。</p>
+
+<div class="pagebreak"></div>
+<h2>参考文献</h2>
+<p class="ref">[1] BOYER R R. An overview on the use of titanium in the aerospace industry[J]. Materials Science and Engineering: A, 1996, 213(1-2): 103-114. DOI: 10.1016/0921-5093(96)10233-1.</p>
+<p class="ref">[2] LÜTJERING G, WILLIAMS J C. Titanium[M]. 2nd ed. Berlin: Springer, 2007. DOI: 10.1007/978-3-540-73036-1.</p>
+<p class="ref">[3] LEYENS C, PETERS M. Titanium and Titanium Alloys: Fundamentals and Applications[M]. Weinheim: Wiley-VCH, 2003. DOI: 10.1002/3527602119.</p>
+<p class="ref">[4] DONACHIE M J. Titanium: A Technical Guide[M]. 2nd ed. Materials Park: ASM International, 2000.</p>
+<p class="ref">[5] WELSCH G, BOYER R, COLLINGS E W. Materials Properties Handbook: Titanium Alloys[M]. Materials Park: ASM International, 1993.</p>
+<p class="ref">[6] CHEN Q, THOUAS G A. Metallic implant biomaterials[J]. Materials Science and Engineering: R: Reports, 2015, 87: 1-57. DOI: 10.1016/j.mser.2014.10.001.</p>
+<p class="ref">[7] BUDINSKI K G. Tribological properties of titanium alloys[J]. Wear, 1991, 151(2): 203-217. DOI: 10.1016/0043-1648(91)90249-T.</p>
+<p class="ref">[8] MERCER A P, HUTCHINGS I M. The influence of atmospheric composition on the abrasive wear of titanium and Ti-6Al-4V[J]. Wear, 1988, 124(2): 165-176. DOI: 10.1016/0043-1648(88)90242-6.</p>
+<p class="ref">[9] SOLA T, MAUREL P, WEISS L, et al. A comprehensive investigation of the tribological behaviour of α, α+β, and β titanium alloys against a steel counterpart[J]. Wear, 2025, 560-561: 205595. DOI: 10.1016/j.wear.2024.205595.</p>
+<p class="ref">[10] WANG C T, GAO N, GEE M G, et al. Effect of grain size on the micro-tribological behavior of pure titanium processed by high-pressure torsion[J]. Wear, 2012, 280-281: 28-35. DOI: 10.1016/j.wear.2012.01.012.</p>
+<p class="ref">[11] ALIKHANI CHAMGORDANI S, MIRESMAEILI R, ALIOFKHAZRAEI M. Improvement in tribological behavior of commercial pure titanium by surface mechanical attrition treatment[J]. Tribology International, 2018, 119: 744-752. DOI: 10.1016/j.triboint.2017.11.044.</p>
+<p class="ref">[12] ARCHARD J F. Contact and rubbing of flat surfaces[J]. Journal of Applied Physics, 1953, 24(8): 981-988. DOI: 10.1063/1.1721448.</p>
+<p class="ref">[13] TIAN Y S, CHEN C Z, LI S T, et al. Research progress on laser surface modification of titanium alloys[J]. Applied Surface Science, 2005, 242(1-2): 177-184. DOI: 10.1016/j.apsusc.2004.08.011.</p>
+<p class="ref">[14] WENG F, CHEN C, YU H. Research status of laser cladding on titanium and its alloys: A review[J]. Materials & Design, 2014, 58: 412-425. DOI: 10.1016/j.matdes.2014.01.077.</p>
+<p class="ref">[15] SYPNIEWSKA M, SZKODO M. Laser surface modification of titanium and its alloys—A review[J]. Coatings, 2022, 12(10): 1371. DOI: 10.3390/coatings12101371.</p>
+<p class="ref">[16] SUN Z, ANNERGREN I, PAN D, et al. Effect of laser surface remelting on the corrosion behavior of commercially pure titanium sheet[J]. Materials Science and Engineering: A, 2003, 345(1-2): 293-300. DOI: 10.1016/S0921-5093(02)00477-X.</p>
+<p class="ref">[17] BADKAR D S, PANDEY K S, BUVANASHEKARAN G. Effects of laser phase transformation hardening parameters on heat input and hardened-bead profile quality of unalloyed titanium[J]. Transactions of Nonferrous Metals Society of China, 2010, 20(6): 1078-1091. DOI: 10.1016/S1003-6326(09)60261-2.</p>
+<p class="ref">[18] BADKAR D S, PANDEY K S, BUVANASHEKARAN G. Application of the central composite design in optimization of laser transformation hardening parameters of commercially pure titanium using Nd:YAG laser[J]. The International Journal of Advanced Manufacturing Technology, 2012, 59: 169-192. DOI: 10.1007/s00170-011-3492-2.</p>
+<p class="ref">[19] HAMAD A R, ABBOUD J H, SHUAEIB F M, et al. Surface hardening of commercially pure titanium by laser nitriding: Response surface analysis[J]. Advances in Engineering Software, 2010, 41(4): 674-679. DOI: 10.1016/j.advengsoft.2009.10.010.</p>
+<p class="ref">[20] OHTSU N, YAMANE M, KODAMA K, et al. Surface hardening of titanium by pulsed Nd:YAG laser irradiation at 1064- and 532-nm wavelengths in nitrogen atmosphere[J]. Applied Surface Science, 2010, 257(2): 691-695. DOI: 10.1016/j.apsusc.2010.07.025.</p>
+<p class="ref">[21] KAMAT A M, COPLEY S M, TODD J A. A two-step laser-sustained plasma nitriding process for deep-case hardening of commercially pure titanium[J]. Surface and Coatings Technology, 2017, 313: 82-95. DOI: 10.1016/j.surfcoat.2017.01.033.</p>
+<p class="ref">[22] AMAYA-VAZQUEZ M R, SÁNCHEZ-AMAYA J M, BOUKHA Z, et al. Microstructure, microhardness and corrosion resistance of remelted TiG2 and Ti6Al4V by a high power diode laser[J]. Corrosion Science, 2012, 56: 36-48. DOI: 10.1016/j.corsci.2011.11.006.</p>
+<p class="ref">[23] KHORRAM A, DAVOODI JAMALOEI A, JAFARI A. Surface transformation hardening of Ti-5Al-2.5Sn alloy by pulsed Nd:YAG laser: An experimental study[J]. The International Journal of Advanced Manufacturing Technology, 2019, 100: 3085-3099. DOI: 10.1007/s00170-018-2900-2.</p>
+<p class="ref">[24] LUO G X, WU G Q, HUANG Z, et al. Microstructure transformations of laser-surface-melted near-alpha titanium alloy[J]. Materials Characterization, 2009, 60(6): 525-529. DOI: 10.1016/j.matchar.2008.12.009.</p>
+<p class="ref">[25] CHIKARAKARA E, NAHER S, BRABAZON D. High speed laser surface modification of Ti-6Al-4V[J]. Surface and Coatings Technology, 2012, 206(14): 3223-3229. DOI: 10.1016/j.surfcoat.2012.01.010.</p>
+<p class="ref">[26] CAO S, ZOU Y, LIM C V S, et al. On the role of cooling rate and temperature in forming twinned α′ martensite in Ti-6Al-4V[J]. Journal of Alloys and Compounds, 2020, 813: 152247. DOI: 10.1016/j.jallcom.2019.152247.</p>
+<p class="ref">[27] AHMED T, RACK H J. Phase transformations during cooling in α+β titanium alloys[J]. Materials Science and Engineering: A, 1998, 243(1-2): 206-211. DOI: 10.1016/S0921-5093(97)00802-2.</p>
+<p class="ref">[28] SEWARD G G E, CELOTTO S, PRIOR D J, et al. In situ SEM-EBSD observations of the hcp to bcc phase transformation in commercially pure titanium[J]. Acta Materialia, 2004, 52(4): 821-832. DOI: 10.1016/j.actamat.2003.10.049.</p>
+<p class="ref">[29] CAYRON C, ARTAUD B, BRIOTTET L. Reconstruction of parent grains from EBSD data[J]. Materials Characterization, 2006, 57(4-5): 386-401. DOI: 10.1016/j.matchar.2006.03.008.</p>
+<p class="ref">[30] FOUVRY S, PAULIN C, DEYBER S. Impact of contact size and complex gross-partial slip conditions on Ti-6Al-4V/Ti-6Al-4V fretting wear[J]. Tribology International, 2009, 42(3): 461-474. DOI: 10.1016/j.triboint.2008.08.005.</p>
+<p class="ref">[31] FAYEULLE S, BLANCHARD P, VINCENT L. Fretting behavior of titanium alloys[J]. Tribology Transactions, 1993, 36(2): 267-275. DOI: 10.1080/10402009308983158.</p>
+<p class="ref">[32] ZHOU Z R, SAUGER E, LIU J J, et al. Nucleation and early growth of tribologically transformed structure induced by fretting[J]. Wear, 1997, 212(1): 50-58. DOI: 10.1016/S0043-1648(97)00141-5.</p>
+<p class="ref">[33] SAUGER E, FOUVRY S, PONSONNET L, et al. Tribologically transformed structure in fretting[J]. Wear, 2000, 245(1-2): 39-52. DOI: 10.1016/S0043-1648(00)00464-6.</p>
+<p class="ref">[34] SAUGER E, PONSONNET L, MARTIN J M, et al. Study of the tribologically transformed structure created during fretting tests[J]. Tribology International, 2000, 33(10): 743-750. DOI: 10.1016/S0301-679X(00)00088-8.</p>
+<p class="ref">[35] FILLOT N, IORDANOFF I, BERTHIER Y. Wear modeling and the third body concept[J]. Wear, 2007, 262(7-8): 949-957. DOI: 10.1016/j.wear.2006.10.011.</p>
+<p class="ref">[36] LEFRANC V, BAYDOUN S, GANDIOLLE C, et al. Heterogeneity in tribologically transformed structure of Ti-6Al-4V under fretting[J]. Wear, 2023, 522: 204680. DOI: 10.1016/j.wear.2023.204680.</p>
+<p class="ref">[37] CRAWFORTH P, WYNNE B, TURNER S, et al. Subsurface deformation during precision turning of a near-alpha titanium alloy[J]. Scripta Materialia, 2012, 67(10): 842-845. DOI: 10.1016/j.scriptamat.2012.08.001.</p>
+<p class="ref">[38] RIGNEY D A. Transfer, mixing and associated chemical and mechanical processes during the sliding of ductile materials[J]. Wear, 2000, 245(1-2): 1-9. DOI: 10.1016/S0043-1648(00)00460-9.</p>
+<p class="ref">[39] CHRISTIAN J W, MAHAJAN S. Deformation twinning[J]. Progress in Materials Science, 1995, 39(1-2): 1-157. DOI: 10.1016/0079-6425(94)00007-7.</p>
+<p class="ref">[40] CONRAD H. Effect of interstitial solutes on the strength and ductility of titanium[J]. Progress in Materials Science, 1981, 26(2): 123-403. DOI: 10.1016/0079-6425(81)90001-3.</p>
+<p class="ref">[41] CHICHILI D R, RAMESH K T, HEMKER K J. The high-strain-rate response of alpha-titanium: Experiments, deformation mechanisms and modeling[J]. Acta Materialia, 1998, 46(3): 1025-1043. DOI: 10.1016/S1359-6454(97)00287-5.</p>
+<p class="ref">[42] AKHTAR A. Basal slip and twinning in α-titanium single crystals[J]. Metallurgical Transactions A, 1975, 6: 1105-1113. DOI: 10.1007/BF02644050.</p>
+<p class="ref">[43] JONES I P, HUTCHINSON W B. Stress-state dependence of slip in titanium-6Al-4V and other HCP metals[J]. Acta Metallurgica, 1981, 29(6): 951-968. DOI: 10.1016/0001-6160(81)90049-3.</p>
+<p class="ref">[44] ZAEFFERER S. A study of active deformation systems in titanium alloys: Dependence on alloy composition and correlation with deformation texture[J]. Materials Science and Engineering: A, 2003, 344(1-2): 20-30. DOI: 10.1016/S0921-5093(02)00421-5.</p>
+<p class="ref">[45] BARKIA B, DOQUET V, COUZINIÉ J P, et al. In situ monitoring of the deformation mechanisms in titanium with different oxygen contents[J]. Materials Science and Engineering: A, 2015, 636: 91-102. DOI: 10.1016/j.msea.2015.03.044.</p>
+<p class="ref">[46] SALEM A A, KALIDINDI S R, DOHERTY R D. Strain hardening of titanium: Role of deformation twinning[J]. Acta Materialia, 2003, 51(14): 4225-4237. DOI: 10.1016/S1359-6454(03)00239-8.</p>
+<p class="ref">[47] SALEM A A, KALIDINDI S R, SEMIATIN S L. Strain hardening due to deformation twinning in α-titanium: Constitutive relations and crystal-plasticity modeling[J]. Acta Materialia, 2005, 53(12): 3495-3502. DOI: 10.1016/j.actamat.2005.04.014.</p>
+<p class="ref">[48] WU X, KALIDINDI S R, NECKER C, et al. Prediction of crystallographic texture evolution and anisotropic stress-strain curves during large plastic strains in high purity α-titanium using a Taylor-type crystal plasticity model[J]. Acta Materialia, 2007, 55(2): 423-432. DOI: 10.1016/j.actamat.2006.08.034.</p>
+<p class="ref">[49] AMOUZOU K E K, RICHETON T, ROTH A, et al. Micromechanical modeling of hardening mechanisms in commercially pure α-titanium in tensile condition[J]. International Journal of Plasticity, 2016, 80: 222-240. DOI: 10.1016/j.ijplas.2015.09.008.</p>
+<p class="ref">[50] HAMA T, KOBUKI A, TAKUDA H. Crystal-plasticity finite-element analysis of anisotropic deformation behavior in a commercially pure titanium Grade 1 sheet[J]. International Journal of Plasticity, 2017, 91: 77-108. DOI: 10.1016/j.ijplas.2016.12.005.</p>
+<p class="ref">[51] BAUDOIN P, HAMA T, TAKUDA H. Influence of critical resolved shear stress ratios on the response of a commercially pure titanium oligocrystal: Crystal plasticity simulations and experiment[J]. International Journal of Plasticity, 2019, 115: 111-131. DOI: 10.1016/j.ijplas.2018.11.013.</p>
+<p class="ref">[52] KAWANO Y, OHASHI T, MAYAMA T, et al. Investigation of strain redistribution mechanism in α titanium by image-based crystal plasticity analysis[J]. The European Physical Journal B, 2019, 92: 204. DOI: 10.1140/epjb/e2019-100238-3.</p>
+<p class="ref">[53] BRITTON T B, LIANG H, DUNNE F P E, et al. The effect of crystal orientation on the indentation response of commercially pure titanium: Experiments and simulations[J]. Proceedings of the Royal Society A, 2010, 466(2115): 695-719. DOI: 10.1098/rspa.2009.0455.</p>
+<p class="ref">[54] WROŃSKI M, KUMAR M A, MCCABE R J, et al. Deformation behavior of CP-titanium under strain path changes: Experiment and crystal plasticity modeling[J]. International Journal of Plasticity, 2022, 148: 103129. DOI: 10.1016/j.ijplas.2021.103129.</p>
+<p class="ref">[55] DAI L, SONG W. A strain rate and temperature-dependent crystal plasticity model for HCP materials: Application to α-titanium[J]. International Journal of Plasticity, 2022, 154: 103281. DOI: 10.1016/j.ijplas.2022.103281.</p>
+<p class="ref">[56] TANG X, WANG Z, WANG X, et al. Unraveling size-affected plastic heterogeneity and asymmetry during micro-scaled deformation of CP-Ti by non-local crystal plasticity modeling[J]. International Journal of Plasticity, 2023, 170: 103733. DOI: 10.1016/j.ijplas.2023.103733.</p>
+<p class="ref">[57] MIN K M, WON J Y, HU X, et al. Unraveling deformation mechanisms in CP-Ti via crystal plasticity: Direction-dependent surface roughness evolution[J]. International Journal of Plasticity, 2025, 195: 104503. DOI: 10.1016/j.ijplas.2025.104503.</p>
+<p class="ref">[58] BENMHENNI N, BOUVIER S, BRENNER R, et al. Micromechanical modelling of monotonic loading of CP α-Ti: Correlation between macroscopic and microscopic behaviour[J]. Materials Science and Engineering: A, 2013, 573: 222-233. DOI: 10.1016/j.msea.2013.02.022.</p>
+<p class="ref">[59] ZHANG Z, JUN T S, BRITTON T B, et al. Intrinsic anisotropy of strain rate sensitivity in single crystal alpha titanium[J]. Acta Materialia, 2016, 118: 317-330. DOI: 10.1016/j.actamat.2016.07.044.</p>
+<p class="ref">[60] JUN T S, ZHANG Z, SERNICOLA G, et al. Local strain rate sensitivity of single α phase within a dual-phase Ti alloy[J]. Acta Materialia, 2016, 107: 298-309. DOI: 10.1016/j.actamat.2016.01.057.</p>
+<p class="ref">[61] ABDOLVAND H, WRIGHT J, WILKINSON A J. Strong grain neighbour effects in polycrystals[J]. Nature Communications, 2018, 9: 171. DOI: 10.1038/s41467-017-02213-9.</p>
+<p class="ref">[62] HÉMERY S, NAÏT-ALI A, SMERDOVA O, et al. Deformation mechanisms in the α phase of the Ti-6Al-2Sn-4Zr-2Mo titanium alloy: In situ experiments and simulations[J]. International Journal of Plasticity, 2024, 175: 103947. DOI: 10.1016/j.ijplas.2024.103947.</p>
+<p class="ref">[63] JOSEPH S, BANTOUNAS I, LINDLEY T C, et al. Slip transfer and deformation structures resulting from the low cycle fatigue of near-alpha titanium alloy Ti-6242Si[J]. International Journal of Plasticity, 2018, 100: 90-103. DOI: 10.1016/j.ijplas.2017.09.012.</p>
+<p class="ref">[64] ZHANG Z, CUDDIHY M A, DUNNE F P E. Quantitative investigation of micro slip and localization in polycrystalline materials under uniaxial tension[J]. International Journal of Plasticity, 2018, 104: 82-101. DOI: 10.1016/j.ijplas.2018.01.011.</p>
+<p class="ref">[65] GONG M, XU S, CAPOLUNGO L, et al. Interactions between 〈a〉 dislocations and three-dimensional {11-22} twin in Ti[J]. Acta Materialia, 2020, 195: 597-610. DOI: 10.1016/j.actamat.2020.05.046.</p>
+<p class="ref">[66] LI B, CHEN K. Asymmetric {11-21} twin boundary and migration mechanism in hexagonal close-packed titanium[J]. Acta Materialia, 2022, 232: 117943. DOI: 10.1016/j.actamat.2022.117943.</p>
+<p class="ref">[67] ZHANG H, WEI B, OU X, et al. Enhancing {10-12} twin boundary migration capability in Ti-Al solid solution alloys with increasing Al content[J]. Journal of Materials Science & Technology, 2023, 143: 88-98. DOI: 10.1016/j.jmst.2022.10.080.</p>
+<p class="ref">[68] DMITRIEV A I, NIKONOV A Y, SHUGUROV A R, et al. Molecular dynamics study of dislocation-twin boundary interaction in titanium subjected to scratching[J]. Materials Science and Engineering: A, 2021, 800: 140327. DOI: 10.1016/j.msea.2020.140327.</p>
+<p class="ref">[69] ZHANG H, RAO K, LI Y, et al. Atomic-scale investigations on the interaction mechanisms of 〈c+a〉 dislocations with {11-21} and {11-22} twinning[J]. International Journal of Plasticity, 2025, 193: 104430. DOI: 10.1016/j.ijplas.2025.104430.</p>
+<p class="ref">[70] ZHANG H, LI W, CUI H, et al. Loading-mode and Al-content effects on incoherent basal-prismatic boundary migration in Ti-Al alloys[J]. International Journal of Mechanical Sciences, 2025, 305: 110735. DOI: 10.1016/j.ijmecsci.2025.110735.</p>
+<p class="ref">[71] WENG Z, GU K, CUI C, et al. Cryogenic sliding induced subsurface deformation and tribological behavior of pure titanium[J]. Cryogenics, 2022, 124: 103489. DOI: 10.1016/j.cryogenics.2022.103489.</p>
+<p class="ref">[72] MIYOSHI R, TSUKAMOTO G. In-situ observation of sliding interface in commercially pure titanium sheet with a TiO<sub>2</sub> film[J]. ISIJ International, 2024, 64(12): 1804-1812. DOI: 10.2355/isijinternational.ISIJINT-2024-090.</p>
+<p class="ref">[73] TONG Y, HUA K, XIE H, et al. Subsurface deformation mechanism and the interplay relationship between strength-ductility and fretting wear resistance during fretting of a high-strength titanium alloy[J]. Friction, 2024, 12(10): 2259-2280. DOI: 10.1007/s40544-024-0870-y.</p>
+</div>
+</body>
+</html>
