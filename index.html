@@ -21,7 +21,7 @@
     header{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.92);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
     nav{height:68px;display:flex;justify-content:space-between;align-items:center}
     .brand{font-weight:800;letter-spacing:.2px}
-    .navlinks{display:flex;gap:19px;font-size:13.5px;font-weight:600}
+    .navright{display:flex;align-items:center;gap:14px}\n    .navlinks{display:flex;gap:19px;font-size:13.5px;font-weight:600}\n    .lang-switch{display:inline-flex;align-items:center;justify-content:center;padding:7px 11px;border:1px solid var(--line);border-radius:9px;background:#fff;color:var(--blue2);font-size:13px;font-weight:800;white-space:nowrap;box-shadow:0 4px 14px rgba(29,49,80,.05)}\n    .lang-switch:hover{background:var(--soft);text-decoration:none}
     .hero{padding:76px 0 44px}
     .hero-grid{display:grid;grid-template-columns:190px 1fr;gap:44px;align-items:center}
     .avatar{width:180px;height:180px;border-radius:28px;object-fit:cover;background:#fff;border:1px solid var(--line);box-shadow:var(--shadow)}
@@ -81,20 +81,23 @@
       .item{grid-template-columns:1fr;gap:4px}
     }
   </style>
-</head>
+  <link rel="alternate" hreflang="zh-CN" href="https://yline0829.github.io/zh.html" />\n</head>
 <body>
 <header>
   <div class="wrap">
     <nav>
       <div class="brand">Yulin Ma / 马玉林</div>
-      <div class="navlinks">
-        <a href="#about">About</a>
-        <a href="#research">Research</a>
-        <a href="#education">Education</a>
-        <a href="#publications">Publications</a>
-        <a href="#projects">Projects</a>
-        <a href="#awards">Awards</a>
-        <a href="#contact">Contact</a>
+      <div class="navright">
+        <div class="navlinks">
+          <a href="#about">About</a>
+          <a href="#research">Research</a>
+          <a href="#education">Education</a>
+          <a href="#publications">Publications</a>
+          <a href="#projects">Projects</a>
+          <a href="#awards">Awards</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <a class="lang-switch" href="zh.html" aria-label="切换到中文">中文</a>
       </div>
     </nav>
   </div>
