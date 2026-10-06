@@ -3,62 +3,81 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Yulin Ma - Graduate Researcher at Ocean University of China. Research interests include additive manufacturing, melt pool dynamics, multi-material transport, CFD, cellular automata and crystal plasticity." />
-  <title>Yulin Ma | Academic Homepage</title>
+  <meta name="description" content="Yulin Ma - Ph.D. Candidate at Ocean University of China. Research on multi-energy-field laser directed energy deposition, wire-powder additive manufacturing, melt-pool dynamics, material transport, microstructure evolution and crystal plasticity." />
+  <meta name="keywords" content="Yulin Ma, 马玉林, Ocean University of China, additive manufacturing, laser cladding, wire powder, DED, Flow-3D, CPFEM, EBSD" />
+  <title>Yulin Ma | 马玉林</title>
   <style>
-    :root{--bg:#f7f9fc;--card:#ffffff;--text:#172033;--muted:#61708a;--line:#e4e9f1;--accent:#1f5fbf;--accent2:#0e8a8a;--shadow:0 16px 45px rgba(28,52,84,.08)}
+    :root{
+      --bg:#f6f8fb;--card:#fff;--text:#172033;--muted:#60708a;--line:#e3e9f2;
+      --blue:#1f5fbf;--blue2:#143f7d;--teal:#0f8b8d;--soft:#edf4ff;
+      --shadow:0 18px 50px rgba(29,49,80,.08)
+    }
     *{box-sizing:border-box}
     html{scroll-behavior:smooth}
-    body{margin:0;font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif;color:var(--text);background:var(--bg);line-height:1.7}
-    a{color:var(--accent);text-decoration:none}
+    body{margin:0;font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans SC","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--text);line-height:1.72}
+    a{color:var(--blue);text-decoration:none}
     a:hover{text-decoration:underline}
-    .wrap{max-width:1120px;margin:auto;padding:0 24px}
-    header{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.9);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
-    nav{height:66px;display:flex;align-items:center;justify-content:space-between}
-    .brand{font-weight:750;letter-spacing:.2px}
-    .navlinks{display:flex;gap:20px;font-size:14px}
-    .hero{padding:72px 0 46px}
-    .hero-grid{display:grid;grid-template-columns:190px 1fr;gap:42px;align-items:center}
-    .avatar{width:180px;height:180px;border-radius:24px;object-fit:cover;box-shadow:var(--shadow);border:1px solid var(--line);background:#fff}
-    h1{font-size:46px;line-height:1.08;margin:0 0 10px;letter-spacing:-1.2px}
-    .cn{font-size:22px;font-weight:650;margin-left:8px;color:#44516a}
-    .role{font-size:19px;color:var(--muted);margin:0 0 14px}
-    .lead{font-size:17px;max-width:820px;color:#36445f;margin:0 0 18px}
-    .chips{display:flex;flex-wrap:wrap;gap:9px;margin-top:18px}
-    .chip{padding:7px 11px;border-radius:999px;background:#eef4ff;color:#23539b;font-size:13px;border:1px solid #dbe8fb}
-    .links{display:flex;flex-wrap:wrap;gap:12px;margin-top:20px}
-    .btn{display:inline-flex;align-items:center;gap:7px;padding:9px 13px;border:1px solid var(--line);border-radius:10px;background:#fff;color:var(--text);font-weight:600;font-size:14px}
-    .btn.primary{background:var(--accent);color:#fff;border-color:var(--accent)}
-    section{padding:30px 0}
-    .section-title{font-size:27px;margin:0 0 18px;letter-spacing:-.3px}
-    .section-sub{margin:-10px 0 22px;color:var(--muted)}
+    .wrap{max-width:1160px;margin:auto;padding:0 26px}
+    header{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.92);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+    nav{height:68px;display:flex;justify-content:space-between;align-items:center}
+    .brand{font-weight:800;letter-spacing:.2px}
+    .navlinks{display:flex;gap:19px;font-size:13.5px;font-weight:600}
+    .hero{padding:76px 0 44px}
+    .hero-grid{display:grid;grid-template-columns:190px 1fr;gap:44px;align-items:center}
+    .avatar{width:180px;height:180px;border-radius:28px;object-fit:cover;background:#fff;border:1px solid var(--line);box-shadow:var(--shadow)}
+    .eyebrow{font-size:12px;text-transform:uppercase;letter-spacing:1.4px;font-weight:800;color:var(--teal)}
+    h1{font-size:48px;line-height:1.05;margin:8px 0 10px;letter-spacing:-1.4px}
+    .cn{font-size:23px;color:#45536c;font-weight:700;margin-left:8px}
+    .role{font-size:20px;color:#44536d;margin:0 0 8px}
+    .affil{font-size:15px;color:var(--muted);margin:0 0 17px}
+    .lead{font-size:17px;color:#33425b;max-width:850px;margin:0}
+    .chips{display:flex;flex-wrap:wrap;gap:9px;margin-top:20px}
+    .chip{padding:7px 11px;border-radius:999px;background:var(--soft);border:1px solid #dbe8fb;color:#25549a;font-size:13px}
+    .actions{display:flex;flex-wrap:wrap;gap:11px;margin-top:20px}
+    .btn{display:inline-flex;align-items:center;padding:9px 13px;border-radius:10px;border:1px solid var(--line);background:#fff;color:var(--text);font-size:14px;font-weight:700}
+    .btn.primary{background:var(--blue);border-color:var(--blue);color:#fff}
+    section{padding:31px 0}
+    .section-title{font-size:29px;letter-spacing:-.4px;margin:0 0 17px}
+    .section-sub{margin:-9px 0 22px;color:var(--muted)}
     .card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:24px;box-shadow:var(--shadow)}
     .grid-2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
     .grid-3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
-    .research-card h3,.project h3{margin:0 0 8px;font-size:18px}
-    .research-card p,.project p{margin:0;color:var(--muted)}
-    .eyebrow{font-size:12px;text-transform:uppercase;letter-spacing:1.2px;font-weight:800;color:var(--accent2);margin-bottom:8px}
-    .timeline{display:grid;gap:14px}
-    .item{display:grid;grid-template-columns:125px 1fr;gap:20px;padding:18px 0;border-bottom:1px solid var(--line)}
+    .grid-4{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px}
+    .research h3,.project h3{font-size:18px;margin:5px 0 8px}
+    .research p,.project p{margin:0;color:var(--muted)}
+    .stats{margin-top:24px}
+    .stat{text-align:center;padding:20px 12px}
+    .stat strong{display:block;font-size:31px;line-height:1.1;color:var(--blue2)}
+    .stat span{font-size:12.5px;color:var(--muted)}
+    .timeline{display:grid;gap:0}
+    .item{display:grid;grid-template-columns:155px 1fr;gap:22px;padding:20px 0;border-bottom:1px solid var(--line)}
     .item:last-child{border-bottom:0}
-    .date{font-weight:700;color:#40506b}
+    .date{font-weight:800;color:#41506a}
     .item h3{margin:0 0 4px;font-size:17px}
     .item p{margin:0;color:var(--muted)}
-    .news li{margin:8px 0}
-    .pub{padding:18px 0;border-bottom:1px solid var(--line)}
-    .pub:last-child{border-bottom:0}
-    .pub-title{font-weight:700}
-    .muted{color:var(--muted)}
-    footer{padding:42px 0 70px;color:var(--muted);font-size:14px}
-    .note{padding:13px 16px;border-left:4px solid #f0b429;background:#fff8e8;border-radius:8px;color:#705315;margin-top:16px}
-    @media(max-width:800px){
+    .item .meta{color:#41506a;font-size:14px;margin-top:4px}
+    .pub,.patent{padding:18px 0;border-bottom:1px solid var(--line)}
+    .pub:last-child,.patent:last-child{border-bottom:0}
+    .pub-title,.patent-title{font-weight:750;color:#202b3f}
+    .pub-meta{margin-top:4px;color:var(--muted);font-size:14px}
+    .tag{display:inline-block;margin-left:6px;padding:2px 7px;border-radius:999px;background:#eef4ff;color:#24549a;font-size:11px;font-weight:800;vertical-align:1px}
+    .tag.review{background:#fff3dc;color:#8d5d00}
+    .award-list{margin:0;padding-left:20px}
+    .award-list li{margin:8px 0}
+    .skill{padding:18px}
+    .skill h3{font-size:16px;margin:0 0 8px}
+    .skill p{margin:0;color:var(--muted);font-size:14px}
+    .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+    .small{font-size:14px;color:var(--muted)}
+    footer{padding:45px 0 70px;color:var(--muted);font-size:13.5px}
+    @media(max-width:900px){
       .navlinks{display:none}
-      .hero{padding-top:44px}
+      .hero{padding-top:48px}
       .hero-grid{grid-template-columns:1fr;text-align:center}
-      .avatar{margin:auto;width:150px;height:150px}
-      h1{font-size:36px}
-      .links,.chips{justify-content:center}
-      .grid-2,.grid-3{grid-template-columns:1fr}
+      .avatar{margin:auto;width:155px;height:155px}
+      h1{font-size:38px}
+      .chips,.actions{justify-content:center}
+      .grid-2,.grid-3,.grid-4,.contact-grid{grid-template-columns:1fr}
       .item{grid-template-columns:1fr;gap:4px}
     }
   </style>
@@ -71,9 +90,10 @@
       <div class="navlinks">
         <a href="#about">About</a>
         <a href="#research">Research</a>
-        <a href="#projects">Projects</a>
-        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
         <a href="#publications">Publications</a>
+        <a href="#projects">Projects</a>
+        <a href="#awards">Awards</a>
         <a href="#contact">Contact</a>
       </div>
     </nav>
@@ -83,25 +103,38 @@
 <main>
   <section class="hero" id="about">
     <div class="wrap hero-grid">
-      <img class="avatar" src="https://avatars.githubusercontent.com/u/76857139?v=4" alt="Yulin Ma GitHub avatar" />
+      <img class="avatar" src="https://avatars.githubusercontent.com/u/76857139?v=4" alt="Yulin Ma" />
       <div>
         <div class="eyebrow">Academic Homepage</div>
         <h1>Yulin Ma <span class="cn">马玉林</span></h1>
-        <p class="role">Graduate Researcher · Ocean University of China</p>
-        <p class="lead">My research focuses on advanced manufacturing and computational materials science, with particular interests in multi-material additive manufacturing, melt-pool thermal-fluid dynamics, material transport, microstructure evolution and crystal plasticity.</p>
+        <p class="role">Ph.D. Candidate · Materials Science and Engineering</p>
+        <p class="affil">School of Materials Science and Engineering, Ocean University of China · Shandong Key Laboratory of Marine Equipment Materials and Protection</p>
+        <p class="lead">My research focuses on multi-energy-field laser directed energy deposition and extreme high-speed laser cladding, with emphasis on energy coupling, melt-pool thermal-fluid dynamics, multi-material transport and mixing, microstructure control, and process–structure–property relationships.</p>
         <div class="chips">
-          <span class="chip">Additive Manufacturing</span>
-          <span class="chip">Multi-material DED</span>
+          <span class="chip">Directed Energy Deposition</span>
+          <span class="chip">Wire–Powder Co-deposition</span>
           <span class="chip">Melt Pool Dynamics</span>
-          <span class="chip">CFD & Multiphysics</span>
-          <span class="chip">CA Microstructure</span>
-          <span class="chip">CPFEM</span>
+          <span class="chip">Multi-material Transport</span>
+          <span class="chip">Flow-3D / CFD</span>
+          <span class="chip">CPFEM / UMAT</span>
+          <span class="chip">EBSD / DREAM3D</span>
         </div>
-        <div class="links">
-          <a class="btn primary" href="https://github.com/yline0829">GitHub</a>
+        <div class="actions">
+          <a class="btn primary" href="mailto:auin.m@outlook.com">Email</a>
+          <a class="btn" href="https://github.com/yline0829">GitHub</a>
           <a class="btn" href="#publications">Publications</a>
-          <a class="btn" href="#contact">Contact</a>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <div class="grid-4 stats">
+        <div class="card stat"><strong>12</strong><span>papers published / submitted</span></div>
+        <div class="card stat"><strong>11</strong><span>invention patents applied</span></div>
+        <div class="card stat"><strong>5</strong><span>first-author papers published / under review</span></div>
+        <div class="card stat"><strong>10+</strong><span>major academic & competition awards</span></div>
       </div>
     </div>
   </section>
@@ -109,83 +142,58 @@
   <section id="research">
     <div class="wrap">
       <h2 class="section-title">Research Interests</h2>
-      <p class="section-sub">Current directions in manufacturing science and computational materials engineering.</p>
+      <p class="section-sub">A process–melt pool–transport–microstructure–performance research framework.</p>
       <div class="grid-2">
-        <div class="card research-card">
-          <div class="eyebrow">01</div>
-          <h3>Dual-Laser Wire–Powder Additive Manufacturing</h3>
-          <p>Thermal-fluid behavior, auxiliary beam oscillation, wire/powder interaction and multi-material deposition in directed energy deposition.</p>
+        <div class="card research">
+          <div class="eyebrow">01 · Additive Manufacturing</div>
+          <h3>Multi-energy-field Laser Directed Energy Deposition</h3>
+          <p>Laser/plasma hybrid processing, oscillating-laser-assisted wire–powder co-deposition, high-throughput multi-material manufacturing and process-window optimization.</p>
         </div>
-        <div class="card research-card">
-          <div class="eyebrow">02</div>
-          <h3>Melt-Pool Dynamics & Material Transport</h3>
-          <p>Keyhole physics, Marangoni convection, melt stirring, element redistribution, mixing and homogenization in metallic melt pools.</p>
+        <div class="card research">
+          <div class="eyebrow">02 · Thermal-fluid Science</div>
+          <h3>Melt Pool Flow and Multi-material Transport</h3>
+          <p>Keyhole behavior, Marangoni convection, melt stirring, material redistribution, mixing and homogenization using high-fidelity CFD and multiphysics simulation.</p>
         </div>
-        <div class="card research-card">
-          <div class="eyebrow">03</div>
-          <h3>Microstructure Evolution</h3>
-          <p>Cellular automata, solidification and solid-state phase transformation, crystallographic orientation and grain-growth modeling.</p>
+        <div class="card research">
+          <div class="eyebrow">03 · Microstructure</div>
+          <h3>Solidification and Phase Evolution</h3>
+          <p>Cellular automata, phase transformation, crystallographic orientation evolution, EBSD-based characterization and 3D microstructure reconstruction.</p>
         </div>
-        <div class="card research-card">
-          <div class="eyebrow">04</div>
-          <h3>Crystal Plasticity & 3D Microstructure</h3>
-          <p>EBSD/DREAM3D reconstruction, HCP crystal plasticity finite-element modeling, slip/twinning and GND-informed deformation analysis.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="projects">
-    <div class="wrap">
-      <h2 class="section-title">Selected Projects</h2>
-      <div class="grid-3">
-        <div class="card project">
-          <div class="eyebrow">Additive Manufacturing</div>
-          <h3>Multi-material Wire–Powder DED</h3>
-          <p>Numerical and experimental investigation of thermal transfer, fluid flow and mass transport under fixed/scanning dual-laser energy input.</p>
-        </div>
-        <div class="card project">
-          <div class="eyebrow">Microstructure</div>
-          <h3>CA-based Grain & Phase Evolution</h3>
-          <p>Development of grain-growth and phase-transformation workflows using CFD-derived thermal histories and crystallographic rules.</p>
-        </div>
-        <div class="card project">
-          <div class="eyebrow">Mechanics</div>
-          <h3>HCP-Ti CPFEM</h3>
-          <p>Crystal-scale modeling of slip, twinning, SSD/GND evolution and tribological deformation in titanium microstructures.</p>
+        <div class="card research">
+          <div class="eyebrow">04 · Computational Mechanics</div>
+          <h3>Crystal Plasticity and Tribological Deformation</h3>
+          <p>ABAQUS/UMAT-based CPFEM for HCP metals, slip/twinning, SSD/GND evolution, load transfer and subsurface deformation under frictional contact.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <section id="news">
+  <section id="education">
     <div class="wrap">
-      <h2 class="section-title">News</h2>
-      <div class="card">
-        <ul class="news">
-          <li><strong>2026.10</strong> — Personal academic homepage launched on GitHub Pages.</li>
-          <li><strong>2026</strong> — Ongoing research on dual-laser wire–powder additive manufacturing and multi-material transport.</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <section id="experience">
-    <div class="wrap">
-      <h2 class="section-title">Education & Research Experience</h2>
+      <h2 class="section-title">Education</h2>
       <div class="card timeline">
         <div class="item">
-          <div class="date">Present</div>
+          <div class="date">2023.09–2027.06</div>
           <div>
-            <h3>Ocean University of China</h3>
-            <p>Graduate research in materials engineering, advanced manufacturing and computational materials science.</p>
+            <h3>Ocean University of China · Ph.D.</h3>
+            <p>School of Materials Science and Engineering · Materials-related doctoral program</p>
+            <div class="meta">Advisor: Prof. Hongzhi Cui · Research: Laser Metal Directed Energy Deposition</div>
           </div>
         </div>
         <div class="item">
-          <div class="date">Research</div>
+          <div class="date">2020.09–2023.06</div>
           <div>
-            <h3>Integrated experimental–computational workflow</h3>
-            <p>FLOW-3D, Abaqus/UMAT, EBSD, DREAM3D, cellular automata, SEM, XRD and related characterization / simulation methods.</p>
+            <h3>Shandong University of Technology · M.Eng.</h3>
+            <p>School of Mechanical Engineering · Mechanical Engineering</p>
+            <div class="meta">Advisor: Prof. Yongling Wu · Research: Additive Manufacturing of Flexible Devices</div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="date">2015.09–2019.06</div>
+          <div>
+            <h3>Shandong University of Technology · B.Eng.</h3>
+            <p>Mechanical Design, Manufacturing and Automation</p>
+            <div class="meta">Research: Robotic Mechanical Design and 3D Printing</div>
           </div>
         </div>
       </div>
@@ -194,12 +202,121 @@
 
   <section id="publications">
     <div class="wrap">
-      <h2 class="section-title">Publications</h2>
+      <h2 class="section-title">Selected Publications</h2>
+      <p class="section-sub">Selected first-author and representative publications. Manuscript status is shown explicitly.</p>
       <div class="card">
         <div class="pub">
-          <div class="pub-title">Publications will be listed here.</div>
-          <div class="muted">Send me your publication list, DOI links or CV and I can populate this section with journal, year, authors, PDF and code links.</div>
+          <div class="pub-title">Understanding Multi-material Transport and Homogenization via Controlled Melt Pool Flow in Dual-Laser Wire-Powder Additive Manufacturing <span class="tag review">Under Review</span></div>
+          <div class="pub-meta"><strong>Y. Ma</strong>, F. Cao, Y. Zhang, Y. Zhu, T. Liu, C. Wang, H. Zhang, H. Cui · Additive Manufacturing</div>
         </div>
+        <div class="pub">
+          <div class="pub-title">Process Stability and Properties Control of Extreme High-speed Laser Cladding with High Power and High Powder Feeding Rate <span class="tag review">Under Review</span></div>
+          <div class="pub-meta"><strong>Y. Ma</strong>, W. Li, H. Zhang, Y. Zhu, Y. Zhang, X. Wei, T. Liu, H. Cui · Surface & Coatings Technology</div>
+        </div>
+        <div class="pub">
+          <div class="pub-title">Formation of a Novel (Cr,V)(C,N)@Si-rich Amorphous Core–Shell Structure in Fe–Cr–B Alloy Coatings towards Superior Strength and Wear Resistance <span class="tag review">Submitted</span></div>
+          <div class="pub-meta"><strong>Y. Ma</strong>, H. Zhang, Y. Zhu, Y. Zhang, C. Wang, T. Liu, Q. Du, H. Cui</div>
+        </div>
+        <div class="pub">
+          <div class="pub-title">Nano PDA@Tur-Modified Piezoelectric Sensors for Enhanced Sensitivity and Energy Harvesting <span class="tag">Co-first Author</span></div>
+          <div class="pub-meta">R. Yang, <strong>Y. Ma</strong>, J. Cui, M. Liu, Y. Wu, H. Zheng · ACS Sensors, 2024, 9, 3137–3149</div>
+        </div>
+        <div class="pub">
+          <div class="pub-title">ZnO@Ag Modified Piezoelectric Fibers for Higher Sensitivity and Enhanced Energy Harvesting</div>
+          <div class="pub-meta"><strong>Y. Ma</strong>, M. Liu, Y. Feng, H. Zheng, Y. Wu · Journal of Materials Research and Technology, 2022, 20, 2689–2704</div>
+        </div>
+        <div class="pub">
+          <div class="pub-title">Numerical Simulation and Experimental Study of Hybrid Laser-electric Arc Welding between Dissimilar Mg Alloys</div>
+          <div class="pub-meta"><strong>Y. Ma</strong>, J. Zhu, L. Zhang, Z. Ren, Y. Zhao, W. Wang, X. Wang, X. Hui, Y. Wu, H. Zheng · Journal of Central South University, 2022, 29(10), 3476–3488</div>
+        </div>
+        <div class="pub">
+          <div class="pub-title">Piezoelectric Materials for Flexible and Wearable Electronics: A Review</div>
+          <div class="pub-meta">Y. Wu, <strong>Y. Ma</strong>, H. Zheng, S. Ramakrishna · Materials & Design, 2021, 211, 110164</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="patents">
+    <div class="wrap">
+      <h2 class="section-title">Selected Patents</h2>
+      <div class="card">
+        <div class="patent">
+          <div class="patent-title">Oscillatory Laser Wire–Powder Co-deposition High-throughput Sample Array Additive Manufacturing Method</div>
+          <div class="pub-meta">H. Cui, <strong>Y. Ma</strong>, H. Zhang, et al. · Chinese invention patent ZL202610208930.9; international filings in the U.S., Japan and Russia.</div>
+        </div>
+        <div class="patent">
+          <div class="patent-title">Short-process Preparation Method for an Ultra-high-speed Laser Cladding Coating on a Shaft Component</div>
+          <div class="pub-meta">H. Cui, <strong>Y. Ma</strong>, W. Li, et al. · CN121737705A; international filing.</div>
+        </div>
+        <div class="patent">
+          <div class="patent-title">Method for Preparing Refractory Metal Coatings on High-reflectivity Metal Surfaces</div>
+          <div class="pub-meta">H. Cui, W. Huang, <strong>Y. Ma</strong>, H. Zhao, et al. · CN120272902A.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="wrap">
+      <h2 class="section-title">Selected Research Projects</h2>
+      <div class="grid-2">
+        <div class="card project">
+          <div class="eyebrow">2027–2030 · NSFC Joint Fund</div>
+          <h3>Multi-scale Structural Control of Additively Manufactured Offshore Thick Heterogeneous Plates</h3>
+          <p>Responsible for hybrid-field gradient additive manufacturing and multi-parameter prediction, including laser/plasma hybrid energy fields, wire–powder co-deposition, wide-beam remelting, thermal-fluid-mechanical modeling and process quality prediction.</p>
+        </div>
+        <div class="card project">
+          <div class="eyebrow">2024–2026 · Major Provincial Service Project</div>
+          <h3>Corrosion- and Wear-resistant High-strength Steel Plates for Offshore Equipment</h3>
+          <p>Research on laser/plasma gradient metallurgy, powder/wire feeding, high-speed surface cladding, gradient microstructure control, finite-element / phase-field analysis and engineering verification.</p>
+        </div>
+        <div class="card project">
+          <div class="eyebrow">2026–2027 · Industry Project</div>
+          <h3>Engineered Wear/Corrosion-resistant Surface Systems</h3>
+          <p>Development of extreme high-speed laser cladding equipment and process windows; participation in delivery of two industrial cladding systems and full-scale hydraulic component demonstration.</p>
+        </div>
+        <div class="card project">
+          <div class="eyebrow">2025–2026 · Steel Industry Project</div>
+          <h3>High-energy-beam Hybrid Welding of Offshore High-strength Steel</h3>
+          <p>Thermal–metallurgical–mechanical simulation, multiphase microstructure control, residual-stress evolution, model validation and process optimization.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="wrap">
+      <h2 class="section-title">Methods & Skills</h2>
+      <div class="grid-3">
+        <div class="card skill">
+          <h3>Numerical Simulation</h3>
+          <p>FLOW-3D AM, ABAQUS + UMAT, ANSYS Fluent / Workbench, COMSOL, MATLAB and Python automation.</p>
+        </div>
+        <div class="card skill">
+          <h3>Materials Characterization</h3>
+          <p>SEM, EBSD, TEM-related workflow, tribology, DIC, mechanical testing and microstructure–property analysis.</p>
+        </div>
+        <div class="card skill">
+          <h3>Engineering & Design</h3>
+          <p>SolidWorks, CAD, UG, Fusion 360, laser-system integration, robot programming, path planning and additive-manufacturing process development.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="awards">
+    <div class="wrap">
+      <h2 class="section-title">Selected Honors & Awards</h2>
+      <div class="card">
+        <ul class="award-list">
+          <li>Outstanding Master's Thesis of Shandong Province, 2024</li>
+          <li>Outstanding Graduate of Shandong Province, 2023</li>
+          <li>National Scholarship for Graduate Students, 2023</li>
+          <li>First Prize, China College Students Mechanical Innovation Competition – Micro/Nano Sensing and Intelligent Application, 2022</li>
+          <li>National First Prize, ROBOCON China University Robot Competition, 2018</li>
+          <li>Multiple graduate academic scholarships, student-leadership honors and provincial / national innovation awards</li>
+        </ul>
       </div>
     </div>
   </section>
@@ -207,17 +324,25 @@
   <section id="contact">
     <div class="wrap">
       <h2 class="section-title">Contact</h2>
-      <div class="card">
-        <p><strong>Yulin Ma / 马玉林</strong><br/>Ocean University of China</p>
-        <p>GitHub: <a href="https://github.com/yline0829">github.com/yline0829</a></p>
-        <div class="note">Email is intentionally not published yet because no verified address was available. Once you provide the email you want displayed, this placeholder can be replaced directly.</div>
+      <div class="contact-grid">
+        <div class="card">
+          <h3 style="margin-top:0">Yulin Ma / 马玉林</h3>
+          <p>Ph.D. Candidate<br/>School of Materials Science and Engineering<br/>Ocean University of China</p>
+          <p>Email: <a href="mailto:auin.m@outlook.com">auin.m@outlook.com</a><br/>
+          GitHub: <a href="https://github.com/yline0829">github.com/yline0829</a></p>
+        </div>
+        <div class="card">
+          <h3 style="margin-top:0">Research Profile</h3>
+          <p class="small">Current focus: multi-energy-field additive manufacturing, melt-pool dynamics, multi-material transport, microstructure evolution and crystal-scale mechanics.</p>
+          <p class="small">This website is continuously updated as papers, patents and research projects progress.</p>
+        </div>
       </div>
     </div>
   </section>
 </main>
 
 <footer>
-  <div class="wrap">© 2026 Yulin Ma. Built with GitHub Pages.</div>
+  <div class="wrap">© 2026 Yulin Ma. Hosted on GitHub Pages.</div>
 </footer>
 </body>
 </html>
